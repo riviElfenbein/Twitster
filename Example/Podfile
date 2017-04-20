@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Twitster_Example' do
+  pod 'Twitster', :path => '../'
+
+  target 'Twitster_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
