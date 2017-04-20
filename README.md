@@ -22,8 +22,9 @@ pod "Twitster"
 
 ## Author
 
-riviElfenbein, rivi@rndrobin.com
+riviElfenbein, rivielf@gmail.com
 
 ## License
 
 Twitster is available under the MIT license. See the LICENSE file for more info.
+# Twitster
