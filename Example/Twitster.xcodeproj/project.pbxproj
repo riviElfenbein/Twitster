@@ -11,10 +11,10 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		74EE2DBCE4495DBB9F797812 /* Pods_Twitster_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBEC7B3EC50A0BEFB986AB8 /* Pods_Twitster_Tests.framework */; };
+		A6001A231EA907FB00C5B4C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6001A221EA907FB00C5B4C7 /* LaunchScreen.storyboard */; };
+		A6001A251EA9099A00C5B4C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6001A241EA9099A00C5B4C7 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,16 +35,16 @@
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Twitster_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Twitster_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C0BD2E4EED2E1F0CDC53737 /* Pods-Twitster_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitster_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twitster_Tests/Pods-Twitster_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A3D03496D413CF0F2C62EC6C /* Twitster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Twitster.podspec; path = ../Twitster.podspec; sourceTree = "<group>"; };
-		A9DDEB9E9A9C5B27E61EA70C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A3D03496D413CF0F2C62EC6C /* Twitster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Twitster.podspec; path = ../Twitster.podspec; sourceTree = "<group>"; };
+		A6001A221EA907FB00C5B4C7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6001A241EA9099A00C5B4C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9DDEB9E9A9C5B27E61EA70C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D143070530D5C5B609C6C714 /* Pods-Twitster_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitster_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitster_Example/Pods-Twitster_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D73BD9787CA2C00BA4BBA539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D73BD9787CA2C00BA4BBA539 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E0E04AAF4171B4CD85AD456F /* Pods-Twitster_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitster_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twitster_Example/Pods-Twitster_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E6C84D3C9FF029A3BA5D29A2 /* Pods-Twitster_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twitster_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twitster_Tests/Pods-Twitster_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,11 +93,11 @@
 		607FACD21AFB9204008FA782 /* Example for Twitster */ = {
 			isa = PBXGroup;
 			children = (
+				A6001A241EA9099A00C5B4C7 /* Assets.xcassets */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A6001A221EA907FB00C5B4C7 /* LaunchScreen.storyboard */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for Twitster";
@@ -172,6 +172,7 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				50BC52ACF0607E531A02C53F /* [CP] Embed Pods Frameworks */,
 				FA594651135C28F9B8F78A09 /* [CP] Copy Pods Resources */,
+				A6001A261EA90FAA00C5B4C7 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -249,8 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				A6001A251EA9099A00C5B4C7 /* Assets.xcassets in Resources */,
+				A6001A231EA907FB00C5B4C7 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +309,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twitster_Tests/Pods-Twitster_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		A6001A261EA90FAA00C5B4C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 50e055705ab521ab9af396c274603a666079056b 450999432cb7f8ca795d8b32eb8fdc5b655cfd9681b8e1bd55ee6cee9a6d6c2e";
 		};
 		D5F6A368014A05C7FA4C1FE1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -391,14 +405,6 @@
 				607FACDA1AFB9204008FA782 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

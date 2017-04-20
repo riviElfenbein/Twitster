@@ -1,0 +1,22 @@
+{
+  "name": "Twitster",
+  "version": "0.1.0",
+  "summary": "A short description of Twitster.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/riviElfenbein/Twitster",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "riviElfenbein": "rivi@rndrobin.com"
+  },
+  "source": {
+    "git": "https://github.com/riviElfenbein/Twitster.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Twitster/Classes/**/*"
+}

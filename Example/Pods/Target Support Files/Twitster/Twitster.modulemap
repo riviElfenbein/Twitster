@@ -1,0 +1,6 @@
+framework module Twitster {
+  umbrella header "Twitster-umbrella.h"
+
+  export *
+  module * { export * }
+}
