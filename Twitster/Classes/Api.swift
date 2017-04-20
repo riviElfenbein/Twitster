@@ -1,6 +1,6 @@
 //
 //  Api.swift
-//  Twittster
+//  Twitster
 //
 //  Created by Rivi Elf on 19/04/2017.
 //  Copyright © 2017 Rivi Elf. All rights reserved.
