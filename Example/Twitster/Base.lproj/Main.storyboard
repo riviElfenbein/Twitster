@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Twittster" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController autoresizesArchivedViewToFullSize="NO" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="Twitster_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -36,7 +36,7 @@
                                 </items>
                             </navigationBar>
                             <searchBar contentMode="redraw" placeholder="See what happens now" translatesAutoresizingMaskIntoConstraints="NO" id="6AN-B2-lXV">
-                                <rect key="frame" x="0.0" y="80" width="375" height="44"/>
+                                <rect key="frame" x="-4" y="80" width="383" height="44"/>
                                 <color key="barTintColor" red="0.2666666667" green="0.54117647059999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <scopeButtonTitles>
@@ -79,13 +79,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="U8X-Bd-lbc" secondAttribute="bottom" constant="16" id="WQf-Gb-goh"/>
                             <constraint firstItem="SjI-5L-3Ml" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Yw2-9s-Kad"/>
                             <constraint firstItem="YTo-oS-hsA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a4H-R9-rPY"/>
-                            <constraint firstItem="6AN-B2-lXV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="d28-wC-SPR"/>
+                            <constraint firstItem="6AN-B2-lXV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="d28-wC-SPR"/>
                             <constraint firstAttribute="trailingMargin" secondItem="YTo-oS-hsA" secondAttribute="trailing" constant="16" id="dQn-4A-xHU"/>
                             <constraint firstItem="YTo-oS-hsA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="eIl-QC-JwW"/>
                             <constraint firstItem="8Yl-5y-kKi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="f92-ac-9fZ"/>
                             <constraint firstItem="d0G-eM-JdA" firstAttribute="width" secondItem="U8X-Bd-lbc" secondAttribute="width" id="ifR-M4-VmY"/>
                             <constraint firstItem="SjI-5L-3Ml" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="l6w-dt-axB"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="6AN-B2-lXV" secondAttribute="trailing" constant="-16" id="pcE-jq-8C4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6AN-B2-lXV" secondAttribute="trailing" constant="-20" id="pcE-jq-8C4"/>
                             <constraint firstItem="d0G-eM-JdA" firstAttribute="centerX" secondItem="U8X-Bd-lbc" secondAttribute="centerX" id="tVA-2Y-eQo"/>
                             <constraint firstItem="U8X-Bd-lbc" firstAttribute="top" secondItem="6AN-B2-lXV" secondAttribute="bottom" constant="16" id="vvm-5Z-uhr"/>
                             <constraint firstItem="YTo-oS-hsA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wwO-V5-oKp"/>
