@@ -1,10 +1,11 @@
-use_frameworks!
+
 
 target 'Twitster_Example' do
-  pod 'Twitster', :path => '../'
-  pod 'Fabric'
-  pod 'TwitterKit'
-  pod 'MBProgressHUD', '>= 1.0.0'
+    use_frameworks!
+    pod 'Twitster', :path => '../'
+    pod 'Fabric'
+    pod 'TwitterKit'
+    pod 'MBProgressHUD', '>= 1.0.0'
 
   target 'Twitster_Tests' do
     inherit! :search_paths
