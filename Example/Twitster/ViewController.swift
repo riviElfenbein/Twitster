@@ -66,6 +66,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     func startSearching(searchStr:String) {
+         self.noResultsLabel.isHidden =  true
         MBProgressHUD.showAdded(to: view, animated: true)
         Api.startSearchByWord(client: TWTRAPIClient(), searchWord: searchStr, sucess: {(results) -> () in
             if results != nil && results!.count > 0 {
